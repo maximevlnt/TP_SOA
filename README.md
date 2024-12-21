@@ -35,33 +35,6 @@ The application is structured as a **microservice-based system**. It consists of
 - **Build Tool**: Maven
 - **Database**: In-memory database for storing the history of actions
 
-## Installation and Setup
-### Prerequisites
-- Java 23
-- Maven
-
-### Steps to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd room-management-automation
-   ```
-3. Build the project:
-   ```bash
-   mvn clean install
-   ```
-4. Run the application:
-   ```bash
-   mvn spring-boot:run
-   ```
-5. Access the web interface at:
-   ```
-   http://localhost:8080
-   ```
-
 ## Web Interface
 The web interface provides:
 - A dashboard to visualize sensor data.
